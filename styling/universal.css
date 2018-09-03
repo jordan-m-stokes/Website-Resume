@@ -15,12 +15,14 @@ body {
     text-align: center;
     background: rgba(0, 0, 0, 0.65);
     margin: 30px;
+    padding-left: 0px;
 }
 
 .navigation ul li {
     display: inline-block;
-    padding: 10px;
-    margin: 40px 5%;
+    padding: 10px 5px;
+    margin: 40px 0;
+    width: 16%;
 }
 
 a {
@@ -30,4 +32,18 @@ a {
 
 a:visited {
     color: white;
+}
+
+@media (max-width: 720px) {
+
+    .navigation {
+        margin: 0 20px;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 0 auto;
+        padding: 30px 0px;
+        min-width: 70%;
+    }
 }
