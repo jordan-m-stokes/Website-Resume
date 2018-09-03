@@ -1,0 +1,33 @@
+
+/* ----- element selectors ----- */
+
+# {
+    font-family: "Georgia", "Helvetica", sans-serif;
+}
+
+body {
+    background: white url('../resources/images/banner.png') no-repeat center;
+    background-size: cover;
+}
+
+.navigation ul {
+    list-style: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.65);
+    margin: 30px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 40px 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
