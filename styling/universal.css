@@ -20,7 +20,7 @@ header {
 
 h2 {
     font-size: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 p {
@@ -53,6 +53,7 @@ a:visited {
     background: rgba(70, 70, 87, 0.98);
     margin: 30px;
     padding-left: 0px;
+    border-radius: 8px;
 }
 
 .navigation ul li {
@@ -67,7 +68,7 @@ a:visited {
     display: inline-block;
     background: rgba(255, 255, 255, 0.63);
     margin: 200px 80px 30px;
-    padding: 60px;
+    padding: 45px 70px 60px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -102,7 +103,7 @@ a:visited {
 }
 
 #bio-paragraph {
-    max-width: 350px;
+    max-width: 400px;
 }
 
 @media (min-width: 731px) {
@@ -138,10 +139,10 @@ a:visited {
     }
 
     .section {
-        margin-top: 125px;
+        margin-top: 135px;
         margin-left: 7%;
         margin-right: 7%;
-        padding: 60px 52px;
+        padding: 35px 52px 52px;
     }
 
     #bio-paragraph {
