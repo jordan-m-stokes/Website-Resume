@@ -27,7 +27,7 @@ h2 {
 p {
     font-size: 16px;
     color: #222;
-    line-height: 170%;
+    line-height: 180%;
     text-align: left;
 }
 
@@ -65,15 +65,19 @@ a:visited {
     width: 18%;
 }
 
-
 .section {
     display: block;
     background: rgba(255, 255, 255, 0.63);
-    margin: 200px 175px 30px;
+    margin: 30px 175px ;
     padding: 60px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
+
+.first-section {
+    margin-top: 200px;
+}
+
 
 .expand {
     position: fixed;
@@ -98,6 +102,24 @@ a:visited {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+}
+
+#feature h2 {
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 0.2em;
+}
+
+#feature ul li {
+    font-style: oblique;
+    font-size: 17px;
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+}
+
+#feature ul label {
+    font-size: 20px;
 }
 
 #bio {
@@ -150,12 +172,17 @@ a:visited {
         margin-top: 35px;
     }
 
+
     .section {
-        margin-top: 125px;
         margin-left: 7%;
         margin-right: 7%;
         padding: 52px;
     }
+
+    .first-section {
+        margin-top: 125px;
+    }
+
 
     #bio-paragraph {
         text-align: center;
