@@ -111,7 +111,7 @@ a:visited {
 }
 
 #bio-content {
-    background: rgba(255, 255, 255, 0.65);
+    background: rgba(255, 255, 255, 0.60);
     padding: 50px;
     border-radius: 14px;
 }
@@ -162,10 +162,10 @@ a:visited {
     }
 
     #bio {
-        padding: 25px;
+        padding: 15px;
     }
 
     #bio-content {
-        padding: 35px;
+        padding: 45px;
     }
 }
