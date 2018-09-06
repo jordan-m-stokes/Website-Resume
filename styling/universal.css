@@ -111,15 +111,20 @@ a:visited {
 }
 
 #feature ul li {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
     font-style: oblique;
     font-size: 17px;
-    display: inline-block;
-    width: 40%;
-    padding: 20px;
+    width: 45%;
+    padding: 10px;
+    line-height: 170%;
 }
 
-#feature ul label {
-    font-size: 20px;
+#feature ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
 }
 
 #bio {
@@ -143,6 +148,12 @@ a:visited {
 @media (min-width: 731px) {
     .expand {
         display: none;
+    }
+}
+
+@media (max-width: 920px) {
+    #feature ul li {
+        width: auto;
     }
 }
 
