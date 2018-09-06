@@ -154,10 +154,18 @@ a:visited {
         margin-top: 125px;
         margin-left: 7%;
         margin-right: 7%;
-        padding: 60px 45px;
+        padding: 52px;
     }
 
     #bio-paragraph {
         text-align: center;
+    }
+
+    #bio {
+        padding: 25px;
+    }
+
+    #bio-content {
+        padding: 35px;
     }
 }
